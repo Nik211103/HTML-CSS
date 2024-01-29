@@ -1,0 +1,188 @@
+@font-face {
+  src: url(https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700;800&display=swap);
+  font-family: "Forum", serif;
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 1440px;
+  margin: auto;
+  padding: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title_image_welcome {
+  width: 1440px;
+}
+
+.center {
+  padding-left: calc(50%, 720px);
+  padding-right: calc(50%, 720px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0c0c0e;
+  color: #fff;
+}
+
+.header_name {
+  font-family: "Forum";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 166.667% */
+  letter-spacing: 0.6px;
+  padding: 20px;
+}
+
+.header_links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: nowrap;
+}
+
+.header_link {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 250% */
+}
+
+.title_image {
+  background-image: url(./image/welcome.jpg);
+  width: 1440px;
+  height: 600px;
+}
+
+.title_top {
+  color: #fff;
+  text-align: center;
+  font-family: "Forum";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 125% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 35px 40px;
+  display: flex;
+  width: 600px;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  background: #0c0c0e;
+  padding-top: 220px;
+}
+
+.about_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_header {
+  color: #0c0c0e;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 100% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin: 20px;
+}
+
+.header_line {
+  width: 50px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #0c0c0e;
+  margin-bottom: 20px;
+}
+
+.about_top-text {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  margin: 20px;
+}
+
+.about_images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about_img-pic {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.favorites {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.favorites_head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.favorites_contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.favorites_top {
+}
+
+.favorites_top-text {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #000;
+  /* text-align: center; */
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.favorites_top_selections {
+  display: flex;
+  gap: 90px;
+  color: #000;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+.favorites_books {
+  display: grid;
+  
+}
